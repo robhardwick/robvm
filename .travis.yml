@@ -1,0 +1,7 @@
+language: c
+
+install: sudo DEBIAN_FRONTEND=noninteractive apt-get install cmake clang flex bison libtalloc-dev libreadline-dev
+
+before_script: mkdir build && cd build && cmake .. && make
+
+script: ./test/rvm-test
