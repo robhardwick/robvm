@@ -1,4 +1,4 @@
-# RobVM
+# RobVM [![Build Status](https://travis-ci.org/robhardwick/robvm.png?branch=master)](https://travis-ci.org/robhardwick/robvm)
 
 A toy interpreted programming language.
 
